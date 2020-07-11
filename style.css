@@ -37,7 +37,7 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
 .biography_area{
     background-image: url(images/biography-bg.png);
@@ -80,6 +80,7 @@ h1{
     margin-left: 400px;
     border-radius: 5px;
     color: white;
+    margin-bottom: 300px;
     
 
 
@@ -88,6 +89,26 @@ h1{
 .client{
     background-image: url(images/footer-bg.png);
 }
+input:focus{
+    font-weight: 700;
+    color:red;
+    font-size: 20px;
+    background-color: lightblue;
+}
+.submit{
+    text-decoration: none;
+    background-image:linear-gradient( 45deg, rgb(25, 82, 167),rgb(105, 30, 202) );
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.submit:hover{
+    color: red;
+    background-image: linear-gradient(red,yellow);
+}
+
 
 footer p{
     text-align: center;
